@@ -2,7 +2,7 @@
 Flask를 이용한 백엔드 API의 Layered Architecture 프로젝트 샘플
 
 
-## <a>프로젝트 구조</a>
+## <a style="color:blue">프로젝트 구조</a>
 ```
 ├── README.md
 ├── app.py
@@ -45,5 +45,5 @@ Persistence Layer
 * model_a.py : A 서비스에 대한 데이터 액세스
 * model_b.py : B 서비스에 대한 데이터 액세스
 
-## <a>Layered Architecuture</a>
-요청이 Presentation Layer -> Business Layer -> Persistence Layer 순서로 처리되도록 
+## <a style="color:blue">Layered Architecuture</a>
+요청이 Presentation Layer -> Business Layer -> Persistence Layer 순서로 처리되도록 구성
