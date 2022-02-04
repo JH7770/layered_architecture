@@ -23,3 +23,18 @@ Flask Backend layered architecture pattern
     └── service_b.py
     
 ```
+
+### /common
+공통으로 사용하는 모듈 정의
+* db.py : 데이터베이스 관련 함수 정의
+
+### /router
+Presentation Layer
+
+### /services
+Business Layer
+
+
+### /model
+Persistence Layer
+
