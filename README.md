@@ -1,5 +1,5 @@
 # layered_architecture
-Flask Backend layered architecture pattern
+Flask를 이용한 백엔드 API의 Layered Architecture 프로젝트 샘플
 
 
 ## 프로젝트 구조
