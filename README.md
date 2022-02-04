@@ -26,24 +26,24 @@ Flask를 이용한 백엔드 API의 Layered Architecture 프로젝트 샘플
     
 ```
 
-* #### /common
+#### /common
 공통으로 사용하는 모듈 정의
-    * db.py : 데이터베이스 관련 함수 정의
+* db.py : 데이터베이스 관련 함수 정의
 
-* #### /router
+#### /router
 Presentation Layer
-    * router_a.py : A 서비스에 대한 엔드포인트 정의
-    * router_b.py : B 서비스에 대한 엔드포인트 정의
+* router_a.py : A 서비스에 대한 엔드포인트 정의
+* router_b.py : B 서비스에 대한 엔드포인트 정의
 
-* #### /services
+#### /services
 Business Layer
-** service_a.py : A 서비스에 대한 비즈니스 로직 정의
-** service_b.py : B 서비스에 대한 비즈니스 로직 정의
+* service_a.py : A 서비스에 대한 비즈니스 로직 정의
+* service_b.py : B 서비스에 대한 비즈니스 로직 정의
 
-** #### /model
+#### /model
 Persistence Layer
-** model_a.py : A 서비스에 대한 데이터 액세스
-** model_b.py : B 서비스에 대한 데이터 액세스
+* model_a.py : A 서비스에 대한 데이터 액세스
+* model_b.py : B 서비스에 대한 데이터 액세스
 
 ### Layered Architecuture
 요청이 Presentation Layer -> Business Layer -> Persistence Layer 순서로 처리되도록 구성
